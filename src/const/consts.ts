@@ -4,6 +4,10 @@ type Tech = {
   img: string;
 };
 
+export const Symbols = {
+  Check: '&check;',
+} as const;
+
 export const Technologies: Tech[] = [
   {
     name: 'js',
